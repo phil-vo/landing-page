@@ -1,5 +1,16 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
 body {
   font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.black-background {
   background-color: #1f2937;
 }
 
@@ -11,11 +22,15 @@ body {
 
 .header-links {
   display: flex;
-  list-style-type: none;
   gap: 28px;
 }
 
-.header-links li {
+.header-links a {
+  text-decoration: none;
+}
+
+.header-links a,
+.footer {
   font-size: 18px;
   color: #e5e7eb;
 }
@@ -24,4 +39,11 @@ body {
   color: #f9faf8;
   font-size: 24px;
   font-weight: 900;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
 }
