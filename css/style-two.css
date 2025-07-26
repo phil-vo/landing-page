@@ -81,10 +81,10 @@
   width: 50%;
   border-radius: 10px;
   overflow: hidden;
-  padding: 60px 120px;
+  padding: 60px 0;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .call-to-action, .call-to-action button {
