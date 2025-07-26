@@ -10,10 +10,27 @@ body {
   flex-direction: column;
 }
 
+.sign-up-info p, button {
+  color: white;
+}
+
+button {
+  width: 130px;
+  height: 40px;
+  border-radius: 8px;
+  overflow: hidden;
+  align-items: last baseline;
+  border: none;
+  font-weight: 700;
+  font-size: 16px;
+  background-color: #3882f6;
+}
+
 .black-background {
   background-color: #1f2937;
   display: flex;
   flex-direction: column;
+  align-items: space;
 }
 
 .header {
@@ -47,12 +64,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 100px;
+  padding-bottom: 130px;
 }
 
 .sign-up-info {
   display: flex;
   flex-direction: column;
-  width: 500px;
+  width: 430px;
   margin-right: 50px;
 }
 
@@ -60,10 +79,13 @@ body {
   font-size: 48px;
   color: #f9faf8;
   font-weight: 900;
+  margin: 0;
 }
 
 .sign-up-info p {
   flex-wrap: wrap;
+  margin: 0 0 15px 0;
+  font-size: 18px;
 }
 
 .misc-info,
