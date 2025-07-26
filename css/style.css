@@ -1,6 +1,6 @@
 html,
 body {
-  height: 100%;
+  height: 100vh;
   margin: 0;
 }
 
@@ -12,6 +12,8 @@ body {
 
 .black-background {
   background-color: #1f2937;
+  display: flex;
+  flex-direction: column;
 }
 
 .header {
@@ -39,6 +41,36 @@ body {
   color: #f9faf8;
   font-size: 24px;
   font-weight: 900;
+}
+
+.introduction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-up-info {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin-right: 50px;
+}
+
+.sign-up-info h1 {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.sign-up-info p {
+  flex-wrap: wrap;
+}
+
+.misc-info,
+.quotes,
+.call-to-action {
+  display: flex;
+  flex-direction: column;
 }
 
 .footer {
