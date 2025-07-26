@@ -69,3 +69,50 @@
   margin: 0;
   align-self: flex-end;
 }
+
+.call-to-action-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10vh 0;
+}
+
+.call-to-action {
+  width: 50%;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 60px 120px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.call-to-action, .call-to-action button {
+  background-color: #3882f6;
+}
+
+.call-to-action .description {
+  display: flex;
+  flex-direction: column;
+}
+
+.call-to-action button {
+  width: 130px;
+  height: 40px;
+  border-radius: 8px;
+  overflow: hidden;
+  align-items: last baseline;
+  border-color: white;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.description h2, .description p, .call-to-action button {
+  margin: 0;
+  color: white;
+}
+
+.description p {
+  font-size: larger;
+  font-weight: lighter;
+}
